@@ -32,9 +32,5 @@ function searchFines(searchKey){
         );
     });
     return filteredFines;
-
-    return [
-        {номер: '001', тип: 'Перевищення швидкості', сума: 100, дата: '2023-01-15'}
-    ];
 }
 
