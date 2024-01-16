@@ -76,4 +76,10 @@ function payFine() {
 
     DB.splice(trueFineIndex, 1)
     alert("Штраф сплачено!")
+
+    fineNumber.value = ""
+    passport.value = ""
+    creditCardNumber.value = ""
+    cvv.value = ""
+    amount.value = ""
 }
